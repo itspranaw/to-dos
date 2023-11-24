@@ -5,8 +5,8 @@
 }
 
 body {
-  background-color: #030101;
-  color: #444;
+  background-color: #000000;
+  color: #1d1010;
   font-family: 'Poppins', sans-serif;
   display: flex;
   flex-direction: column;
@@ -31,7 +31,7 @@ form {
 
 .input {
   border: none;
-  color: #090000;
+  color: rgb(4, 1, 1);
   font-size: 2rem;
   padding: 1rem 2rem;
   display: block;
@@ -39,7 +39,7 @@ form {
 }
 
 .input::placeholder {
-  color: #d5d5d5;
+  color: #4d4949;
 }
 
 .input:focus {
@@ -61,7 +61,7 @@ form {
 }
 
 .todos li.completed {
-  color: #b6b6b6;
+  color: #000000;
   text-decoration: line-through;
 }
 
